@@ -16,6 +16,7 @@ from_currency = int(input("Select the currency of the amount you want to convert
 
 to_currency = int(input("Select the currency to which you want to convert from the above list(choose number): "))
 
+# US dollars to other currencies
 if from_currency == 2: 
     if to_currency == 1:
         conversion = amount * 79.90
@@ -30,6 +31,7 @@ if from_currency == 2:
         conversion = amount * 1.47
         print("{} USD = {} AUD".format(amount, conversion))
 
+# Indian rupees to other currencies
 if from_currency == 1: 
     if to_currency == 2:
         conversion = amount * 0.013
